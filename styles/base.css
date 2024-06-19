@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #381D2A;
+    --secondary-color: #F0F4EF;
+    --accent1-color: #7798AB;
+    --accent2-color: #F2CEE6;
+    --accent3-color: #BBB5BD;
+
+    --heading-font: 'Bebas Neue', serif;
+    --paragraph-font: 'Jost', serif;
+}
+
+body {
+    background-color: var(--accent2-color);
+    width: auto;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p, nav, a {
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+    height: 40px;
+    border: 1px solid var(--primary-color);
+    list-style-type: none;
+    width: auto;
+    padding: 0;
+    margin: 10px;
+}
+a:link {
+    color: var(--primary-color);
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+a:hover {
+    color: var(--accent3-color);
+    background-color: var(--primary-color);
+}
+
+nav li {
+    font-size: 1.5rem;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1100px;
+    background-color: var(--secondary-color);
+    margin: auto;
+}
+.card1 {
+    grid-column: 1/5;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    margin: 0;
+}
+
+.about img {
+    float: right;
+    padding-left: 30px;
+}
+
+.about {
+    height: 300px;
+}
+
+.card2{
+    grid-column: 5/6;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--accent3-color);
+}
+
+.home img {
+    float: left;
+    padding-right: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.card2 a {
+    color: var(--primary-color);
+}
+
+.card2 a:hover {
+    color: var(--accent1-color);
+}
+
+.card2 li {
+    text-align: left;
+
+}
+
+footer {
+    padding: 0;
+    margin: 0;
+    background-color: var(--accent1-color);
+    text-align: center;
+}
+
+
+

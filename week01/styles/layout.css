@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "footer footer footer";
+}
+header {
+    grid-area: header;
+    height: 100px;
+}
+main {
+    grid-area: main;
+    height: 300px;
+}
+aside {
+    grid-area: aside;
+    height: 300px;
+}
+footer {
+    grid-area: footer;
+}
