@@ -21,5 +21,8 @@
         opacity: 86%;
     }
 
+    h2::after {
+        content: url(images\weather-icon.svg);
+    }
 
 }
