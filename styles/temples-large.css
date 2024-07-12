@@ -1,3 +1,4 @@
+ @media screen and (min-width: 500px)
  {
     section {
         grid-template-columns: 1fr 1fr 1fr;

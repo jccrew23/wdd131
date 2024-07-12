@@ -1,0 +1,58 @@
+:root {
+    --heading-font: arvo, sans-serif;
+    --heading-font-weight: bold;
+    --paragraph-font: libre franklin, sans-serif;
+
+    --primary-color: #8D91C7;
+    --secondary-color: #CDC5B4;
+}
+
+body {
+    max-width: 1280px;
+    margin: auto;
+}
+
+h1, h2{
+    font-family: var(--heading-font);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    background-color: var(--secondary-color);
+    margin: 10px
+    font-size: 2rem;
+}
+
+
+
+header, footer {
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+}
+
+picture {
+    width: 100%;
+    height: auto;
+}
+
+.data, .weather, footer {
+    text-align: center;
+}
+
+
+
+

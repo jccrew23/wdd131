@@ -1,0 +1,25 @@
+@media screen and (min-width: 600px)
+{
+    main {
+        position: relative;
+    }
+    .data {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        background-color: white;
+        padding: 5px;
+        opacity: 86%;
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        background-color: white;
+        padding: 5px;
+        opacity: 86%;
+    }
+
+
+}

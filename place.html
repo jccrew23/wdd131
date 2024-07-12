@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Place-Virginia, USA </title>
+    <meta name="description" content="Information and data about a specific country or place.">
+    <meta name="author" content="Jalielle Curtis">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Virginia</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/virginia-large.webp" media="(min-width: 600px)">
+                <source srcset="images/virginia-medium.webp" media="(min-width: 400px)">
+                <img src="images/virginia.webp" alt="calm wood scene with river and old mill">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <p>
+                <strong>Area:</strong> 42,774.2 sq mi<br>
+                <strong>Population:</strong> 8.684 million<br>
+                <strong>Capital:</strong> Richmond, VA<br>
+                <strong>Languages:</strong> English<br>
+                <strong>Currency:</strong> Dollar<br>
+                <strong>Time Zone:</strong> Eastern Daylight Time<br>
+                <strong>Calling Code:</strong> +1 757, 571, 703, 540, 804<br>
+                <strong>Internet tld:</strong> .va
+            </p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+                <section id="weather">
+                    <div>
+                        <p><strong>Temperature:</strong>
+                        <span id="temp"></span></p>
+                    </div>
+                    <div>
+                        <p><strong>Conditions:</strong> Thunderstorm</p>
+                    </div>
+                    <div>
+                        <p><strong>Wind Speed (km/h):</strong>
+                        <span id="wind"></p>
+                        </span>
+                    </div>
+                    <div>
+                        <p><strong>Wind Chill:</strong>
+                        <span id="chill"></span></p>
+                    </div>
+                </section>
+        </div>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Jalielle Curtis Virginia, USA </p>
+        <p class="lastModified">
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>
