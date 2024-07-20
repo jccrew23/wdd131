@@ -1,0 +1,43 @@
+@media (min-width: 600px)
+ {
+
+	:root {
+		--font: overpass, serif;
+		--primary-color: #bbb;
+		--secondary-color: rgba(0, 0, 0, 0.1);
+		--border-shadow-color:  #333;
+		--tertiary-color: #fff;
+	}
+
+	header {
+		align-items: center;
+		justify-content: space-between;
+		font-size: 2 rem;
+	}
+
+	#menu.show .hide {
+		display: none; /* hide hamburger button */
+	}
+	
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	nav {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	
+	nav ul {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+	nav a {
+		display: block;
+	}
+
+
+
+}

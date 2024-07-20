@@ -1,0 +1,52 @@
+:root {
+    --heading-font: 'Gochi Hand', Sans-serif;
+    --paragraph-font: 'Open sans', Sans-serif;
+
+    --primary-color: #fff;
+    --secondary-color: #28666E;
+    --accent-color: #7C9885;
+    --accent-color2: #FFB6C1
+    ;
+}
+
+body {
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+    background-color: var(--accent-color2);
+}
+
+header {
+    background-color: var(--secondary-color);
+    opacity: 89%;
+    padding: 20px;
+    border: 2px solid white;
+    color: var(--primary-color);
+}
+
+main {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+h1,h2 {
+    margin: 10px;
+    font-family: var(--heading-font);
+    letter-spacing: .2rem;
+    background-color: var(--secondary-color);
+    color: white;
+    margin: 15px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+}
+
+h4 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    margin: auto;
+    max-width: 450px;
+    border: 2px solid var(--secondary-color);
+}
