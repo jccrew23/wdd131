@@ -20,20 +20,9 @@
         padding: 10px;
     }
 
-    .photo {
+    #lessons {
         float: right;
-        padding: 20px;
     }
 
-    .buttons {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    h4 {
-        padding-top: 150px;
-        padding-bottom: 150px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 }
+
