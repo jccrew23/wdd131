@@ -4,15 +4,15 @@ const priceButton = document.querySelector('#prices');
 const contactButton = document.querySelector('#contacts');
 
 aboutButton.addEventListener ('click', () => {
-    window.location.href = '../about.html'
+    window.location.href = 'about.html'
 })
 
 priceButton.addEventListener ('click', () => {
-    window.location.href = '../pricing.html'
+    window.location.href = 'pricing.html'
 })
 
 contactButton.addEventListener ('click', () => {
-    window.location.href = '../contact.html'
+    window.location.href = 'contact.html'
 })
 
 //email prompt 
