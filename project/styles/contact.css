@@ -61,6 +61,7 @@ li {
     display: in-line block;
     justify-content: space-between;
     text-align: center;
+    margin: 10px;
 }
 
 a {
@@ -74,7 +75,6 @@ a {
 a:hover, a:active {
     text-decoration: underline;
     color: var(--accent-color2);
-    padding: 1rem;
 }
 
 h2{
