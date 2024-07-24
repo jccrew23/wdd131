@@ -12,42 +12,42 @@ oneStudio.addEventListener('click', () => {
     let price = priceStudio;
     tuition = (1 * price) * 4 ;
     let sPrice = document.querySelector('#sPrice');
-    sPrice.innerHTML = tuition;
+    sPrice.innerHTML = `$${tuition}`;
 })
 
 twoStudio.addEventListener('click', () => {
     let price = priceStudio;
     tuition = (2 * price) * 4;
     let sPrice = document.querySelector('#sPrice');
-    sPrice.innerHTML = tuition;
+    sPrice.innerHTML = `$${tuition}`;
 })
 
 threeStudio.addEventListener('click', () => {
     let price = priceStudio;
     tuition = (3 * price) * 4;
     let sPrice = document.querySelector('#sPrice');
-    sPrice.innerHTML = tuition;
+    sPrice.innerHTML = `$${tuition}`;
 })
 
 oneTravel.addEventListener('click', () => {
     let price = priceTravel;
     tuition = (1 * price) * 4;
-    let sPrice = document.querySelector('#tPrice');
-    tPrice.innerHTML = tuition;
+    let tPrice = document.querySelector('#tPrice');
+    tPrice.textContent = `$${tuition}`;
 })
 
 twoTravel.addEventListener('click', () => {
     let price = priceTravel;
     tuition = (2 * price) *4;
-    let sPrice = document.querySelector('#tPrice');
-    tPrice.innerHTML = tuition;
+    let tPrice = document.querySelector('#tPrice');
+    tPrice.textContent = `$${tuition}`;
 })
 
 threeTravel.addEventListener('click', () => {
     let price = priceTravel;
     tuition = (3 * price) * 4;
-    let sPrice = document.querySelector('#tPrice');
-    tPrice.innerHTML = tuition;
+    let tPrice = document.querySelector('#tPrice');
+    tPrice.textContent = `$${tuition}`;
 })
 
 // footer copyright and modified date
