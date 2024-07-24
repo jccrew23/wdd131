@@ -48,7 +48,7 @@ header {
 
 ul {
     display: inline-block;
-    background-color: gray;
+    background-color: #686868;
     padding: 1rem;
     font-weight: bold;
     width: auto;
@@ -101,6 +101,7 @@ p {
     margin: auto;
     float: none;
     padding-left: 75px;
+
 }
 
 .about {
@@ -133,6 +134,7 @@ p {
 
 .testimonial {
     font-size: 30px;
+    margin-top: 230px;
 }
 
 #review p {
