@@ -182,7 +182,7 @@ h4 {
     text-align: center;
     text-wrap: pretty;
     color: black;
-    text-shadow: -1px -1px 0 #808080;
+    text-shadow: -1px -1px 0 var(--accent-color);
     margin: 30px;
 }
 
