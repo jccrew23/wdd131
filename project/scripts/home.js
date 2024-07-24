@@ -15,11 +15,19 @@ contactButton.addEventListener ('click', () => {
     window.location.href = 'contact.html'
 })
 
-//email prompt 
-let numVisits = Number(window.localStorage.getItem('numVisits-Is')) || 0;
+//welcome prompt 
+const welcome = document.querySelector('#welcome');
+
+let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
 
 if (numVisits !== 0) {
-    window.prompt('Welcome Back! Want to join my Newsletter? ', 'john@gmail.com');
+    const welcomeBack = document.createElement('h2');
+    welcomeBack.textContent = `Welcome back to Creative Keys`;
+    welcome.appendChild(welcomeBack);
+} else {
+    const welcomeFirst = document.createElement('h2');
+    welcomeFirst.textContent = `Welcome to Creative Keys`;
+    welcome.appendChild(welcomeFirst);
 }
 
 numVisits++;
