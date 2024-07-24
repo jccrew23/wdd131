@@ -106,6 +106,7 @@ p {
 .about {
     width: auto;
     margin: auto;
+    height: 445px;
 }
 
 .about p {
