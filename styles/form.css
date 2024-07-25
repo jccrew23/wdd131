@@ -30,13 +30,9 @@ textarea, select {
     margin-bottom: 20px;
 }
 
-input[type="checkbox"] {
-    display: inline block;
-    margin-bottom: 20px;
-}
 
 input[type="checkbox"] {
-    display: inline block;
+    display: inline;
     margin-bottom: 20px;
 }
 
@@ -44,7 +40,7 @@ input[type="submit"] {
     padding: 7px;
     margin: 5px;
     margin-left: 155px;
-    border: .5 solid gray;
+    border: .5px solid gray;
     background-color: darkblue;
     color: white;
     border-radius: 4px;
