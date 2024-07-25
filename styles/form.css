@@ -30,13 +30,13 @@ textarea, select {
     margin-bottom: 20px;
 }
 
-input[name=stars] {
-    display: inline;
+input[type="checkbox"] {
+    display: inline block;
     margin-bottom: 20px;
 }
 
 input[type="checkbox"] {
-    display: inline;
+    display: inline block;
     margin-bottom: 20px;
 }
 
