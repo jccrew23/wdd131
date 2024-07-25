@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form | WDD 131</title>
+    <meta name="author" content="Jalielle Curtis">
+    <meta name="description" content="a place for product purchasers to give feedback on purchased products">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <section>
+            <form id="form" method="get" action="review.html">
+                <label>Product Name* 
+                    <select id="product" name="product">
+                        <option value="" selected="selected" disabled="disabled" required>Select a Product</option>
+                        <span id="productOp"></span>
+                    </select></label>
+                    <div>Overall Rating*</div>
+                        <label><input type="radio" id="fivestar" name="stars" value="5" required>⭐⭐⭐⭐⭐</label>
+                        <label><input type="radio" id="fourstar" name="stars" value="4" required>⭐⭐⭐⭐</label>
+                        <label><input type="radio" id="threestar" name="stars" value="3" required>⭐⭐⭐</label>
+                        <label><input type="radio" id="twostar" name="stars" value="2" required>⭐⭐</label>
+                        <label><input type="radio" id="onestar" name="stars" value="1" required>⭐</label>
+                <label>Date of Installation*<input id="installation" name="installation" type="date" required></label>
+                <div>Useful Features</div>
+                <label><input type="checkbox" id="durability" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" id="ease" name="ease" value="yes">Ease of Use</label>
+                <label><input type="checkbox" id="performance" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" id="design" name="design" value="yes">Design</label>
+                <label>Written Review<textarea id="comments" name="comments"></textarea></label>
+                <label>User Name <input type="text" id="name" name="name"></label>
+                <label><input type="submit" value="Post Review"></label>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> Jalielle Curtis Virginia, USA </p>
+        <p class="lastModified">
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>

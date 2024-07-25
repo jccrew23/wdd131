@@ -1,0 +1,56 @@
+
+body {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+header, footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #EEEEEE;
+    margin-top: 0;
+    padding: 15px;
+    display: block;
+} 
+
+.form {
+    display: block;
+}
+input[type="text"],
+input[type="date"],
+textarea, select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[name=stars] {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 7px;
+    margin: 5px;
+    margin-left: 155px;
+    border: .5 solid gray;
+    background-color: darkblue;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+
+
